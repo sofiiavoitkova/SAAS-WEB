@@ -167,7 +167,7 @@ img{
   }
 
   /* FAQ */
-  
+
 .faq {
     padding: 40px 0;
   }
@@ -225,6 +225,48 @@ img{
   .faq ul.faq-menu li.active {
     background: var(--primary-color);
     color: #fff;
+  }
+
+  /* Footer */
+.footer {
+    padding: 40px 0;
+  }
+  
+  .footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li {
+    line-height: 2.5;
+  }
+  
+  .footer a {
+    color: #ccc;
+  }
+  
+  .footer i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer .card {
+    margin: 20px 30px 30px 0;
+  }
+  
+  .footer input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
   }
 
 /*Utility Classes*/
