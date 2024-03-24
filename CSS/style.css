@@ -110,6 +110,62 @@ img{
     margin-bottom: 20px;
 }
 
+/*Testimonials*/
+.testimonials{
+    padding: 40px 0;
+
+}
+
+.testimonials .testimonials-heading{
+    width: 700px;
+    margin-bottom: 40px;
+}
+
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonials .card p:nth-child(2){
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/*Pricing*/
+.pricing .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .pricing .pricing-card-subheading {
+    margin-bottom: 30px;
+  }
+  
+  .pricing .pricing-card-price {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .pricing ul {
+    margin: 30px 0;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 20px;
+  }
+  
+  .pricing ul li i {
+    margin-right: 10px;
+  }
+  
+  .pricing .pricing-footer {
+    margin: 30px 0;
+  }
+
 /*Utility Classes*/
 .container{
     max-width: 1100px;
@@ -126,6 +182,15 @@ img{
    
 }
 
+/*Card*/
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
 
 /*Buttons*/
 
@@ -140,6 +205,7 @@ img{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    text-align:center;
     transition: 0.5s;
 }
 
@@ -227,3 +293,4 @@ img{
     background: #000;
     color: #fff;
 }
+
