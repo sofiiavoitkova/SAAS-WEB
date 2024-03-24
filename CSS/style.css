@@ -96,6 +96,19 @@ img{
     margin-bottom: 20px;
 
 }
+/*Video*/
+.video{
+    padding: 10px 0 40px;
+}
+
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-preview{
+    margin-bottom: 20px;
+}
 
 /*Utility Classes*/
 .container{
@@ -191,4 +204,26 @@ img{
 
 .text-center{
     text-align: center;
+}
+
+/*Background*/
+
+.bg-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-light{
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.bg-dark{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-black{
+    background: #000;
+    color: #fff;
 }
